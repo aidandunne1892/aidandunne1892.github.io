@@ -46,3 +46,22 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('[data-toggle="popover2"]').popover();   
 });
+
+
+window.onload = function () {
+    'use strict';
+    
+    var progreeBar = document.getElementsByClassName("progress");
+        
+        progreeBar[0].style.width = "77%";
+        progreeBar[1].style.width = "74%";
+        progreeBar[2].style.width = "76%";
+        progreeBar[3].style.width = "71%";
+        progreeBar[4].style.width = "61%";
+        progreeBar[5].style.width = "65%";
+        progreeBar[6].style.width = "60%";
+        progreeBar[7].style.width = "70%";
+        progreeBar[8].style.width = "70%";
+        progreeBar[9].style.width = "76%";
+    
+};
