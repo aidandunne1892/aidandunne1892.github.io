@@ -4,22 +4,6 @@ function initMap() {
         document.getElementById('map'), {zoom: 15, center: uluru});
     var marker = new google.maps.Marker({position: uluru, map: map});
   }
-  
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
 
 
 $(document).ready(function(){
@@ -100,3 +84,31 @@ $(document).ready(function(){
         $("#lightbox4").modal();
     });
 });
+
+ function showDiv() {
+    var x = document.getElementById("welcomeDiv");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function showDiv2() {
+    var x = document.getElementById("welcomeDiv2");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+
+  function showDiv3() {
+    var x = document.getElementById("welcomeDiv3");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
