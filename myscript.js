@@ -28,6 +28,11 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#myBtn21").click(function(){
+        $("#myModal").modal();
+    });
+});
 
 function sendMessageFunction(event){ 
 	event.preventDefault();
@@ -45,6 +50,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('[data-toggle="popover2"]').popover();   
+});
+
+$(document).ready(function(){
+    $('[data-toggle="popover3"]').popover();   
 });
 
 
@@ -65,3 +74,29 @@ window.onload = function () {
         progreeBar[9].style.width = "76%";
     
 };
+
+
+
+$(document).ready(function(){
+    $("#myBtn3").click(function(){
+        $("#lightbox").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn4").click(function(){
+        $("#lightbox2").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn5").click(function(){
+        $("#lightbox3").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#myBtn6").click(function(){
+        $("#lightbox4").modal();
+    });
+});

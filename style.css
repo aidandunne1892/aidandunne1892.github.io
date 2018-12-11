@@ -6,7 +6,7 @@
 
 /* Skills section css */
 .skills{
-  text-align: left;
+  text-align: center;
   color: #333;
   overflow: hidden;
   height: 100%;
@@ -21,7 +21,7 @@
 .skills .skill{
   width: 70%;
   margin: 80px auto;
-  text-align: left;
+  text-align: center;
 }
 
 .skills .skill > div{
@@ -44,7 +44,7 @@
   height: 100%;
   min-width: 20%;
   border-radius: 5px 0 0 5px;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase
 }
 
@@ -708,3 +708,17 @@ section .section-title{
   .arrow {
       border-right-color: #4682b4 !important;
   }
+
+
+  .modal.and.carousel {
+    position: fixed; 
+  }
+
+  .carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    }
+    .carousel-item img {
+    width: 100%;
+    }
