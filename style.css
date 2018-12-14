@@ -3,7 +3,11 @@
 	background-color: whitesmoke;
 }
 
-
+.list-group {
+  text-align: center;
+  width: 40%;
+  background-color: #333;
+}
 /* Skills section css */
 .skills{
   text-align: center;
@@ -404,12 +408,13 @@ table {
     width: 4px;
     height:340px;
     background-color: #3b5998;
-    -ms-transform: rotate(44deg); /* IE 9 */
-    -webkit-transform: rotate(44deg); /* Safari */
+    -ms-transform: rotate(44deg); 
+    -webkit-transform: rotate(44deg);
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
 }
-/* Medium Devices, .visible-md-* */
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .timeline > li:nth-child(even) {
     margin-bottom: 0px;
@@ -443,7 +448,8 @@ table {
     display: none;
   }
 }
-/* Small Devices, Tablets */
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   .timeline > li:nth-child(even) {
     margin-bottom: 0px;
@@ -477,7 +483,7 @@ table {
     display: none;
   }
 }
-/* Custom, iPhone Retina */
+
 @media only screen and (max-width: 767px) {
   .timeline > li:nth-child(even) {
     margin-bottom: 0px;
